@@ -4,7 +4,7 @@ Online Libary is an online bookstore for uniersity-students to rent and review b
 
 ## Technologies.
 
-Golang for the back-end
+Firebase for the back-end
 
 MySQL for the database
 
