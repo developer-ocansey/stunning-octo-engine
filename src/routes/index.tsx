@@ -3,7 +3,9 @@ import { Route, Router, Switch } from "react-router-dom";
 
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import NotFound from "../pages/404/404";
-import HomeRoutes from "../pages/Auth/Routes";
+import Login from "../pages/Auth/Login/Login";
+import HomeRoutes from "../pages/Home/Routes";
+import Index from "../pages/Index/Index";
 import history from "./history";
 
 const Routes = () => {
@@ -11,8 +13,11 @@ const Routes = () => {
     <Router history={history}>
       <ScrollToTop />
       <Switch>
-        <Route path="/dashboard">
+        <Route path="/home">
           <HomeRoutes />
+        </Route>
+        <Route path="/login">
+          <Login />
         </Route>
         <Route path="/">
           <Index />
