@@ -49,7 +49,7 @@ export const isActive = (path: string) => {
 };
 
 export const setPageTitle = (title: string) => {
-  document.title = "SmartView | " + title;
+  document.title = "Libra | " + title;
 };
 
 export const formatCurrency = (val: number) => {
